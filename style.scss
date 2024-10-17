@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  list-style: none;
+}
+
+header {
+  background-color: rgba(255, 105, 180, 1);
+  height: 12.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  :hover {
+    color: pink;
+  }
+  div {
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      color: rgba(228, 238, 241, 1);
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+  nav {
+    width: 60vw;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      li {
+        color: rgba(228, 238, 241, 1);
+        font-size: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: rgba(228, 238, 241, 1);
+      }
+    }
+  }
+}
+
+main {
+  .firstbox {
+    background-color: rgba(255, 217, 236, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    p {
+      width: 49vw;
+      font-size: 25px;
+    }
+    img {
+      width: 19vw;
+    }
+  }
+
+  .secondbox {
+    background-color: rgba(255, 105, 180, 1);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img {
+      width: 30vw;
+    }
+    p {
+      color: rgba(228, 238, 241, 1);
+      width: 40vw;
+      font-size: 25px;
+    }
+  }
+
+  .thirdbox {
+    background-color: rgba(255, 217, 236, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+  }
+}
+
+footer {
+  background-color: rgba(255, 105, 180, 1);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 32px;
+  .icons {
+    flex: 1;
+  }
+  .names {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+      color: rgba(228, 238, 241, 1);
+      font-size: 20px;
+    }
+    a {
+      color: rgba(228, 238, 241, 1);
+      text-decoration: none;
+    }
+  }
+  .icon-october {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
